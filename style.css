@@ -791,12 +791,12 @@ textarea {
     justify-content: center;
     font-size: 1.1rem;
     color: var(--accent);
-    background: rgba(168, 85, 247, 0.1);
+    background: rgba(230, 0, 18, 0.1);
     border-radius: 12px;
     margin-bottom: 18px;
     margin-top: -35px;
     position: relative;
-    border: 1px solid rgba(168, 85, 247, 0.2);
+    border: 1px solid rgba(230, 0, 18, 0.2);
 }
 
 .service-card h3 {
@@ -963,7 +963,7 @@ textarea {
 
 .city-card.featured {
     border-color: var(--accent);
-    background: linear-gradient(135deg, rgba(168, 85, 247, 0.08), rgba(245, 158, 11, 0.05));
+    background: linear-gradient(135deg, rgba(230, 0, 18, 0.08), rgba(255, 255, 255, 0.05));
 }
 
 .city-icon {
@@ -1020,7 +1020,7 @@ textarea {
 .cta-overlay {
     position: absolute;
     inset: 0;
-    background: linear-gradient(135deg, rgba(8, 8, 12, 0.93) 0%, rgba(124, 58, 237, 0.3) 100%);
+    background: linear-gradient(135deg, rgba(8, 8, 12, 0.93) 0%, rgba(179, 0, 14, 0.3) 100%);
 }
 
 .cta-content {
