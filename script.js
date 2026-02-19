@@ -23,7 +23,9 @@ document.addEventListener('DOMContentLoaded', () => {
             particle.style.width = (2 + Math.random() * 3) + 'px';
             particle.style.height = particle.style.width;
             if (Math.random() > 0.5) {
-                particle.style.background = '#F59E0B';
+                particle.style.background = '#E60012';
+            } else {
+                particle.style.background = '#FFFFFF';
             }
             particlesContainer.appendChild(particle);
         }

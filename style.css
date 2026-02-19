@@ -4,11 +4,13 @@
    ======================================== */
 
 :root {
-    --accent: #A855F7;
-    --accent-light: #C084FC;
-    --accent-dark: #7C3AED;
-    --amber: #F59E0B;
-    --amber-light: #FBBF24;
+    --accent: #E60012;
+    /* Vermelho Top Drinks */
+    --accent-light: #FF3344;
+    --accent-dark: #B3000E;
+    --amber: #FFFFFF;
+    /* Trocado para branco para combinar com a logo */
+    --amber-light: #F0F0F0;
     --black: #08080C;
     --black-soft: #0E0E14;
     --card: #12121A;
@@ -23,8 +25,8 @@
     --font-body: 'Inter', sans-serif;
     --transition: all 0.4s cubic-bezier(0.25, 0.46, 0.45, 0.94);
     --shadow: 0 25px 60px rgba(0, 0, 0, 0.5);
-    --glow: 0 0 30px rgba(168, 85, 247, 0.15);
-    --glow-amber: 0 0 30px rgba(245, 158, 11, 0.15);
+    --glow: 0 0 30px rgba(230, 0, 18, 0.2);
+    --glow-amber: 0 0 30px rgba(255, 255, 255, 0.1);
 }
 
 *,
@@ -208,7 +210,7 @@ textarea {
     background: rgba(8, 8, 12, 0.95);
     backdrop-filter: blur(20px);
     padding: 10px 0;
-    border-bottom: 1px solid rgba(168, 85, 247, 0.1);
+    border-bottom: 1px solid rgba(230, 0, 18, 0.1);
 }
 
 .nav-container {
@@ -375,8 +377,8 @@ textarea {
     color: var(--accent);
     padding: 8px 20px;
     border-radius: 50px;
-    background: rgba(168, 85, 247, 0.1);
-    border: 1px solid rgba(168, 85, 247, 0.2);
+    background: rgba(230, 0, 18, 0.1);
+    border: 1px solid rgba(230, 0, 18, 0.2);
     margin-bottom: 30px;
 }
 
@@ -484,7 +486,7 @@ textarea {
 .btn-glass:hover {
     background: rgba(255, 255, 255, 0.12);
     transform: translateY(-3px);
-    border-color: rgba(168, 85, 247, 0.3);
+    border-color: rgba(230, 0, 18, 0.3);
 }
 
 .btn-lg {
