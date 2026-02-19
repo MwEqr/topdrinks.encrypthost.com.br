@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Drinks & Eventos | Bartenders, Tequileiros e Garçons em SC</title>
+    <meta name="description"
+        content="Top Drinks & Eventos - Serviços profissionais de Bartenders, Tequileiros e Garçons para seu evento em Florianópolis, Balneário Camboriú, Itapema, Blumenau e região.">
+    <meta name="keywords"
+        content="bartender, garçom, tequileiro, eventos, Florianópolis, Balneário Camboriú, Itapema, Blumenau, Itajaí, Santa Catarina, bar, drinks, coquetelaria">
+    <meta property="og:title" content="Top Drinks & Eventos">
+    <meta property="og:description"
+        content="Serviços profissionais de Bartenders, Tequileiros e Garçons para seu evento.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://topdrinks.encrypthost.com.br">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="loader-content">
+            <div class="loader-icon">🍸</div>
+            <div class="loader-logo">TOP DRINKS</div>
+            <div class="loader-sub">& EVENTOS</div>
+            <div class="loader-bar">
+                <div class="loader-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Floating Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#home" class="nav-logo">
+                <span class="logo-icon">🍸</span>
+                <div>
+                    <span class="logo-text">TOP DRINKS</span>
+                    <span class="logo-sub">& EVENTOS</span>
+                </div>
+            </a>
+            <button class="nav-toggle" id="navToggle" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#servicos">Serviços</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#cobertura">Cobertura</a></li>
+                <li><a href="#contato" class="nav-cta">Solicite Orçamento</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg">
+            <img src="https://images.unsplash.com/photo-1574006852726-31bfaa6f49e0?w=1920&q=80"
+                alt="Bartender profissional" loading="eager">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge" data-animate="fade-up">
+                <span class="badge-dot"></span>
+                Referência em Eventos em Santa Catarina
+            </div>
+            <h1 data-animate="fade-up" data-delay="200">
+                <span class="hero-line-1">Sua festa merece</span>
+                <span class="hero-line-accent">o melhor</span>
+                <span class="hero-line-3">em drinks & atendimento</span>
+            </h1>
+            <p class="hero-subtitle" data-animate="fade-up" data-delay="400">
+                Bartenders, Tequileiros e Garçons profissionais para transformar seu evento em uma experiência
+                inesquecível.
+            </p>
+            <div class="hero-actions" data-animate="fade-up" data-delay="600">
+                <a href="https://wa.me/5547984013400?text=Olá! Vi o site da Top Drinks e gostaria de solicitar um orçamento para meu evento."
+                    class="btn btn-primary" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Solicitar Orçamento
+                </a>
+                <a href="#servicos" class="btn btn-glass">
+                    <i class="fas fa-concierge-bell"></i> Nossos Serviços
+                </a>
+            </div>
+            <div class="hero-stats" data-animate="fade-up" data-delay="800">
+                <div class="hero-stat">
+                    <span class="hs-number">19K+</span>
+                    <span class="hs-label">Seguidores</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="hs-number">400+</span>
+                    <span class="hs-label">Posts</span>
+                </div>
+                <div class="hero-stat-divider"></div>
+                <div class="hero-stat">
+                    <span class="hs-number">SC</span>
+                    <span class="hs-label">Cobertura</span>
+                </div>
+            </div>
+        </div>
+        <div class="hero-scroll">
+            <a href="#sobre">
+                <div class="scroll-line"></div>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="section about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-images" data-animate="fade-right">
+                    <div class="about-img-main">
+                        <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=600&q=80"
+                            alt="Coquetel premium">
+                    </div>
+                    <div class="about-img-float">
+                        <img src="https://images.unsplash.com/photo-1609951651556-5334e2706168?w=400&q=80"
+                            alt="Bartender em ação">
+                    </div>
+                    <div class="about-badge-float">
+                        <i class="fas fa-glass-cheers"></i>
+                        <span>Eventos<br>Premium</span>
+                    </div>
+                </div>
+                <div class="about-content" data-animate="fade-left">
+                    <span class="section-label">Quem Somos</span>
+                    <h2 class="section-title">A experiência que seu evento <span class="text-accent">merece</span></h2>
+                    <p class="about-text">
+                        A <strong>Top Drinks & Eventos</strong> é referência em serviços de bartender, garçom e
+                        tequileiro em Santa Catarina. Com uma equipe altamente qualificada e apaixonada pelo que faz,
+                        transformamos cada evento em uma experiência memorável.
+                    </p>
+                    <p class="about-text">
+                        Atuamos em <strong>Florianópolis</strong>, <strong>Balneário Camboriú</strong>,
+                        <strong>Itapema</strong>, <strong>Blumenau</strong>, <strong>Itajaí</strong>,
+                        <strong>Indaial</strong> e diversas cidades de SC, levando profissionalismo, sofisticação e
+                        drinks exclusivos para casamentos, festas corporativas, aniversários e muito mais.
+                    </p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Equipe Profissional Certificada</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Drinks Exclusivos e Personalizados</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Cobertura em todo o estado de SC</span>
+                        </div>
+                        <div class="feature">
+                            <i class="fas fa-check-circle"></i>
+                            <span>Orçamento Gratuito e sem Compromisso</span>
+                        </div>
+                    </div>
+                    <a href="https://wa.me/5547984013400?text=Olá! Gostaria de saber mais sobre os serviços da Top Drinks."
+                        class="btn btn-primary" target="_blank">
+                        <i class="fab fa-whatsapp"></i> Fale Conosco
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicos" class="section services">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-label center">Nossos Serviços</span>
+                <h2 class="section-title center">Tudo para o seu <span class="text-accent">Evento</span></h2>
+                <p class="section-desc">Oferecemos serviços completos de bar e atendimento para tornar seu evento
+                    perfeito.</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-animate="fade-up" data-delay="0">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=500&q=80"
+                            alt="Bartender">
+                        <div class="service-img-overlay"></div>
+                    </div>
+                    <div class="service-body">
+                        <div class="service-icon"><i class="fas fa-cocktail"></i></div>
+                        <h3>Bartenders</h3>
+                        <p>Profissionais experientes em coquetelaria clássica e contemporânea. Drinks autorais,
+                            clássicos e show de flair bartending para impressionar seus convidados.</p>
+                        <ul class="service-list">
+                            <li>Drinks clássicos e autorais</li>
+                            <li>Flair bartending (show)</li>
+                            <li>Open bar completo</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="150">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=500&q=80"
+                            alt="Tequileiro">
+                        <div class="service-img-overlay"></div>
+                    </div>
+                    <div class="service-body">
+                        <div class="service-icon"><i class="fas fa-fire"></i></div>
+                        <h3>Tequileiros</h3>
+                        <p>Nossos tequileiros trazem energia e animação para seu evento com drinks de tequila servidos
+                            de maneira criativa e com performance.</p>
+                        <ul class="service-list">
+                            <li>Show de tequila</li>
+                            <li>Shots personalizados</li>
+                            <li>Interação com convidados</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="service-card" data-animate="fade-up" data-delay="300">
+                    <div class="service-img">
+                        <img src="https://images.unsplash.com/photo-1530062845289-9109b2c9c868?w=500&q=80" alt="Garçom">
+                        <div class="service-img-overlay"></div>
+                    </div>
+                    <div class="service-body">
+                        <div class="service-icon"><i class="fas fa-concierge-bell"></i></div>
+                        <h3>Garçons</h3>
+                        <p>Garçons treinados e uniformizados para servir com elegância e eficiência em eventos de
+                            qualquer porte.</p>
+                        <ul class="service-list">
+                            <li>Serviço de mesa e volante</li>
+                            <li>Uniformizados e treinados</li>
+                            <li>Eventos de todos os portes</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Types -->
+    <section class="section events-types">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-label center">Tipos de Eventos</span>
+                <h2 class="section-title center">Presentes nos <span class="text-accent">melhores eventos</span></h2>
+            </div>
+            <div class="events-grid">
+                <div class="event-type" data-animate="fade-up" data-delay="0">
+                    <div class="event-icon">💒</div>
+                    <h4>Casamentos</h4>
+                </div>
+                <div class="event-type" data-animate="fade-up" data-delay="80">
+                    <div class="event-icon">🎂</div>
+                    <h4>Aniversários</h4>
+                </div>
+                <div class="event-type" data-animate="fade-up" data-delay="160">
+                    <div class="event-icon">🏢</div>
+                    <h4>Corporativos</h4>
+                </div>
+                <div class="event-type" data-animate="fade-up" data-delay="240">
+                    <div class="event-icon">🎓</div>
+                    <h4>Formaturas</h4>
+                </div>
+                <div class="event-type" data-animate="fade-up" data-delay="320">
+                    <div class="event-icon">🎉</div>
+                    <h4>Confraternizações</h4>
+                </div>
+                <div class="event-type" data-animate="fade-up" data-delay="400">
+                    <div class="event-icon">🥂</div>
+                    <h4>Open Bar</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeria" class="section gallery">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-label center">Galeria</span>
+                <h2 class="section-title center">Momentos que <span class="text-accent">marcam</span></h2>
+                <p class="section-desc">Confira alguns registros dos nossos eventos e drinks exclusivos.</p>
+            </div>
+            <div class="gallery-grid">
+                <div class="gallery-item large" data-animate="fade-up">
+                    <img src="https://images.unsplash.com/photo-1574006852726-31bfaa6f49e0?w=800&q=80"
+                        alt="Bartender preparando drink" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Bartender em Ação</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="fade-up" data-delay="100">
+                    <img src="https://images.unsplash.com/photo-1551024709-8f23befc6f87?w=500&q=80"
+                        alt="Coquetel artesanal" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Drinks Exclusivos</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="fade-up" data-delay="200">
+                    <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=500&q=80"
+                        alt="Evento com shots" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Show de Tequila</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="fade-up" data-delay="300">
+                    <img src="https://images.unsplash.com/photo-1536935338788-846bb9981813?w=500&q=80"
+                        alt="Drinks variados" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Coquetelaria Criativa</span>
+                    </div>
+                </div>
+                <div class="gallery-item large" data-animate="fade-up" data-delay="400">
+                    <img src="https://images.unsplash.com/photo-1566417713940-fe7c737a9ef2?w=800&q=80"
+                        alt="Festa com bartender" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Eventos Premium</span>
+                    </div>
+                </div>
+                <div class="gallery-item" data-animate="fade-up" data-delay="500">
+                    <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?w=500&q=80"
+                        alt="Preparo de coquetel" loading="lazy">
+                    <div class="gallery-overlay">
+                        <span>Preparo Artesanal</span>
+                    </div>
+                </div>
+            </div>
+            <div class="gallery-cta" data-animate="fade-up">
+                <p>Veja mais dos nossos eventos no Instagram</p>
+                <a href="https://instagram.com/topbartendersc" class="btn btn-glass" target="_blank">
+                    <i class="fab fa-instagram"></i> @topbartendersc
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Coverage Section -->
+    <section id="cobertura" class="section coverage">
+        <div class="coverage-bg"></div>
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-label center">Área de Atuação</span>
+                <h2 class="section-title center">Cobertura em <span class="text-accent">Santa Catarina</span></h2>
+                <p class="section-desc">Atendemos em diversas cidades do estado para levar a melhor experiência ao seu
+                    evento.</p>
+            </div>
+            <div class="coverage-grid">
+                <div class="city-card" data-animate="fade-up" data-delay="0">
+                    <div class="city-icon"><i class="fas fa-umbrella-beach"></i></div>
+                    <h4>Florianópolis</h4>
+                    <p>Capital e região</p>
+                </div>
+                <div class="city-card featured" data-animate="fade-up" data-delay="80">
+                    <div class="city-icon"><i class="fas fa-city"></i></div>
+                    <h4>Balneário Camboriú</h4>
+                    <p>Cidade e região</p>
+                </div>
+                <div class="city-card" data-animate="fade-up" data-delay="160">
+                    <div class="city-icon"><i class="fas fa-water"></i></div>
+                    <h4>Itapema</h4>
+                    <p>Litoral norte</p>
+                </div>
+                <div class="city-card" data-animate="fade-up" data-delay="240">
+                    <div class="city-icon"><i class="fas fa-mountain"></i></div>
+                    <h4>Blumenau</h4>
+                    <p>Vale do Itajaí</p>
+                </div>
+                <div class="city-card" data-animate="fade-up" data-delay="320">
+                    <div class="city-icon"><i class="fas fa-anchor"></i></div>
+                    <h4>Itajaí</h4>
+                    <p>Litoral norte</p>
+                </div>
+                <div class="city-card" data-animate="fade-up" data-delay="400">
+                    <div class="city-icon"><i class="fas fa-tree"></i></div>
+                    <h4>Indaial</h4>
+                    <p>Vale do Itajaí</p>
+                </div>
+            </div>
+            <p class="coverage-extra" data-animate="fade-up">E muitas outras cidades de SC! <a href="#contato">Consulte
+                    disponibilidade</a></p>
+        </div>
+    </section>
+
+    <!-- CTA Parallax -->
+    <section class="section cta-section">
+        <div class="cta-bg">
+            <img src="https://images.unsplash.com/photo-1549487758-dc92cce84b16?w=1920&q=80" alt="Evento premium"
+                loading="lazy">
+            <div class="cta-overlay"></div>
+        </div>
+        <div class="container">
+            <div class="cta-content" data-animate="fade-up">
+                <span class="cta-emoji">🍸</span>
+                <h2>Solicite seu orçamento e tenha o melhor no seu evento</h2>
+                <p>Orçamento gratuito e sem compromisso. Entre em contato agora e garanta a equipe Top Drinks no seu
+                    próximo evento!</p>
+                <a href="https://wa.me/5547984013400?text=Olá! Gostaria de solicitar um orçamento para meu evento."
+                    class="btn btn-primary btn-lg" target="_blank">
+                    <i class="fab fa-whatsapp"></i> Solicite seu Orçamento
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="section contact">
+        <div class="container">
+            <div class="section-header" data-animate="fade-up">
+                <span class="section-label center">Contato</span>
+                <h2 class="section-title center">Fale com a <span class="text-accent">Top Drinks</span></h2>
+                <p class="section-desc">Preencha o formulário ou fale conosco diretamente pelo WhatsApp.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info" data-animate="fade-right">
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fab fa-whatsapp"></i></div>
+                        <div class="info-text">
+                            <h4>WhatsApp</h4>
+                            <p><a href="https://wa.me/5547984013400" target="_blank">(47) 98401-3400</a></p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fab fa-instagram"></i></div>
+                        <div class="info-text">
+                            <h4>Instagram</h4>
+                            <p><a href="https://instagram.com/topbartendersc" target="_blank">@topbartendersc</a></p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fab fa-facebook"></i></div>
+                        <div class="info-text">
+                            <h4>Facebook</h4>
+                            <p><a href="https://www.facebook.com/topdrinksevento" target="_blank">/topdrinksevento</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div class="info-text">
+                            <h4>Localização</h4>
+                            <p>Santa Catarina - BR</p>
+                        </div>
+                    </div>
+                    <div class="info-card">
+                        <div class="info-icon"><i class="fas fa-clock"></i></div>
+                        <div class="info-text">
+                            <h4>Atendimento</h4>
+                            <p>Seg-Dom: Sob consulta</p>
+                        </div>
+                    </div>
+                    <div class="social-row">
+                        <a href="https://instagram.com/topbartendersc" target="_blank" class="social-link"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/topdrinksevento" target="_blank" class="social-link"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/5547984013400" target="_blank" class="social-link"><i
+                                class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm" data-animate="fade-left">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Nome Completo</label>
+                            <input type="text" id="name" name="name" required placeholder="Seu nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">WhatsApp</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="(47) 99999-9999">
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="eventType">Tipo de Evento</label>
+                            <select id="eventType" name="eventType">
+                                <option value="">Selecione</option>
+                                <option value="casamento">Casamento</option>
+                                <option value="aniversario">Aniversário</option>
+                                <option value="corporativo">Evento Corporativo</option>
+                                <option value="formatura">Formatura</option>
+                                <option value="confraternizacao">Confraternização</option>
+                                <option value="openbar">Open Bar</option>
+                                <option value="outro">Outro</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="date">Data do Evento</label>
+                            <input type="date" id="date" name="date">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Serviço Desejado</label>
+                        <select id="service" name="service">
+                            <option value="">Selecione o serviço</option>
+                            <option value="bartender">Bartender</option>
+                            <option value="tequileiro">Tequileiro</option>
+                            <option value="garcom">Garçom</option>
+                            <option value="completo">Pacote Completo</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="guests">Número de Convidados</label>
+                        <input type="number" id="guests" name="guests" placeholder="Ex: 100">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Detalhes do Evento</label>
+                        <textarea id="message" name="message" rows="4"
+                            placeholder="Local, horário, detalhes especiais..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-full">
+                        <i class="fab fa-whatsapp"></i> Enviar via WhatsApp
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <span class="logo-icon">🍸</span>
+                        <div>
+                            <span class="logo-text">TOP DRINKS</span>
+                            <span class="logo-sub">& EVENTOS</span>
+                        </div>
+                    </div>
+                    <p class="footer-desc">Serviços profissionais de Bartenders, Tequileiros e Garçons para seu evento
+                        em Santa Catarina.</p>
+                    <div class="footer-social">
+                        <a href="https://instagram.com/topbartendersc" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/topdrinksevento" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="https://wa.me/5547984013400" target="_blank"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-links">
+                    <h4>Menu</h4>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#galeria">Galeria</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Serviços</h4>
+                    <ul>
+                        <li><a href="#servicos">Bartenders</a></li>
+                        <li><a href="#servicos">Tequileiros</a></li>
+                        <li><a href="#servicos">Garçons</a></li>
+                        <li><a href="#servicos">Open Bar</a></li>
+                        <li><a href="#servicos">Pacote Completo</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Cidades</h4>
+                    <ul>
+                        <li><a href="#cobertura">Florianópolis</a></li>
+                        <li><a href="#cobertura">Balneário Camboriú</a></li>
+                        <li><a href="#cobertura">Itapema</a></li>
+                        <li><a href="#cobertura">Blumenau</a></li>
+                        <li><a href="#cobertura">Itajaí</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Top Drinks & Eventos. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- WhatsApp Float -->
+    <a href="https://wa.me/5547984013400?text=Olá! Gostaria de solicitar um orçamento para meu evento."
+        class="whatsapp-float" target="_blank" aria-label="WhatsApp">
+        <i class="fab fa-whatsapp"></i>
+        <span class="wpp-pulse"></span>
+    </a>
+
+    <!-- Back to Top -->
+    <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
